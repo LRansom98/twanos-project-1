@@ -1,0 +1,88 @@
+
+p{
+text-align: left;
+font-family: 'Special Elite';
+font-size: 17px;
+}
+
+.contact{
+  text-align:left;
+}
+
+p.alone{text-align: center;}
+
+h1 { font-family:Arial;
+}
+h5 {
+  font-family:Arial;
+  text-align: ;
+}
+b { font-family:Arial; }
+i { font-family:Arial; }
+
+
+ nav img{
+  width:250px;
+  height:250px;
+}
+
+nav{background-image:url(spoon-and-fork.jpg);
+  width:400px;
+
+}
+
+
+body{
+  background-image:url(spoon-and-fork.jpg);
+     background-repeat:no-repeat;
+
+}
+
+
+#welcome{
+  font-size: 45px;
+  text-align:center;
+  color:black;
+   text-shadow:2px 2px 2px rgba(212, 175,55 ,0.5),
+              1px 1px 1px orange;
+
+             }
+
+
+#grabber{text-align:center;font-size: 18px;}
+
+#alfredo{
+  border-top: 4px solid orange;
+  border-right: 4px solid orange;
+  border-bottom: 4px solid orange;
+  border-left: 4px solid orange;
+
+  display: block;
+  margin: 0 auto 0 auto;
+  width:500px;
+  height:500px;
+
+}
+#chickenwing{
+  border-top: 4px solid orange;
+  border-right: 4px solid orange;
+  border-bottom: 4px solid orange;
+  border-left: 4px solid orange;
+
+  display: block;
+  margin: 0 auto 0 auto;
+}
+  #jerk{
+    height:200px;
+    border-top: 4px solid orange;
+    border-right: 4px solid orange;
+    border-bottom: 4px solid orange;
+    border-left: 4px solid orange;
+
+    display: block;
+    margin: 0 auto 0 auto;
+
+  }
+
+
+#carouselExampleIndicators{text-align: center;}
