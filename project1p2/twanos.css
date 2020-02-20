@@ -21,18 +21,20 @@ b { font-family:Arial; }
 i { font-family:Arial; }
 
 
-nav img{
-  width:300px;
-  height:200px;
+ nav img{
+  width:250px;
+  height:250px;
 }
 
 nav{background-image:url(spoon-and-fork.jpg);
+  width:400px;
 
 }
 
 
-body{background-image:url(spoon-and-fork.jpg);
-background-image:url(spoon-and-fork.jpg);
+body{
+  background-image:url(spoon-and-fork.jpg);
+     background-repeat:no-repeat;
 
 }
 
@@ -50,32 +52,36 @@ background-image:url(spoon-and-fork.jpg);
 #grabber{text-align:center;font-size: 18px;}
 
 #alfredo{
-  border-top: 0px solid gold;
-  border-right: 0px solid gold;
-  border-bottom: 0px solid gold;
-  border-left: 0px solid gold;
+  border-top: 4px solid orange;
+  border-right: 4px solid orange;
+  border-bottom: 4px solid orange;
+  border-left: 4px solid orange;
 
   display: block;
   margin: 0 auto 0 auto;
-  width:300px;
-  height:200px;
+  width:500px;
+  height:500px;
 
 }
 #chickenwing{
-  border-top: 0px solid gold;
-  border-right: 0px solid gold;
-  border-bottom: 0px solid gold;
-  border-left: 0px solid gold;
+  border-top: 4px solid orange;
+  border-right: 4px solid orange;
+  border-bottom: 4px solid orange;
+  border-left: 4px solid orange;
+
   display: block;
   margin: 0 auto 0 auto;
 }
   #jerk{
-    border-top: 0px solid gold;
-    border-right: 0px solid gold;
-    border-bottom: 0px solid gold;
-    border-left: 0px solid gold;
+    height:200px;
+    border-top: 4px solid orange;
+    border-right: 4px solid orange;
+    border-bottom: 4px solid orange;
+    border-left: 4px solid orange;
+
     display: block;
     margin: 0 auto 0 auto;
+
   }
 
 
