@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="twanos.css">
+<title>Menu</title>
+
+<style>
+
+
+
+
+
+nav,img{width:250px;
+height:160px;}
+
+div img{width:250px;
+height:168px;}
+
+#head{text-align: center;
+  font-size: 25px;
+  color:black;
+ text-shadow:2px 2px 2px rgba(212, 175,55 ,0.5),
+            1px 1px 1px gold;    }
+
+ h4,p{text-align: left;
+  font-size: 25px;
+  color:orange;
+text-shadow:2px 3px 3px white;
+text-shadow:4px 4px 4px ivory;
+}
+
+
+
+
+
+
+
+.textOverImage{
+  border-top: 6px solid gold;
+  border-right: 6px solid orange;
+  border-bottom: 6px solid gold;
+  border-left: 6px solid orange;
+
+position: relative;
+width:300px;
+height: 300px;
+float:left;
+margin: 4px;
+background-size: 100%;
+background-position: center;
+transition: 0.5s;
+}
+
+.textOverImage:hover{
+background-size: 110%;
+}
+
+.textOverImage:after{
+  position: absolute;
+  top: 90%;
+  bottom: 0;
+  left:0;
+  right: 0;
+  white-space: pre-wrap;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+  color:#fff;
+  padding:0 8px;
+
+content: attr(data-text);
+transition: 0.5s;
+}
+
+.textOverImage:hover:after{
+top: 0;
+padding: 8px;
+background-color: rgba(0, 0, 0, 0.6);
+}
+
+.textOverImage:first-line{
+color: #fff;
+font-weight: bold;
+font-size: 1.5em;
+
+
+}
+
+</style>
+
+
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-white" style="background-color: black;">
+      <a class="navbar-brand" href="twanos.html">
+
+    <img src="twanoslogo.jpg" alt="twanoslogo"  style="display: inline-block;">
+
+
+        <span style="display: inline-block;"></span>
+      </a>
+        </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+            <a style="color: orange" class="nav-link" href="twanos.html">Home </a>
+          </li>
+          <li class="nav-item active">
+            <a style="color: orange" class="nav-link" href="menu.html">Menu<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a style="color:orange" class="nav-link" href="cart.html">Cart</a>
+          </li>
+          <li class="nav-item active">
+            <a style="color:orange" class="nav-link" href="about.html">AboutUs</a>
+          </li>
+          <li class="nav-item active">
+            <a style="color: orange" class="nav-link" href="Contact.html">ContactUs</a>
+          </li>
+        </ul>
+        </div>
+        </nav>
+        <div id="bottom">   <!-- div for nav bar -->
+<div id=bk>
+<div id="head">
+  <h2>Menu</h2><br>
+<p><b>Here are some tasty food options<b></p>
+</div>
+
+
+
+
+
+<div class="textOverImage"
+style="background-image:url(alfredo.JPG)"
+data-text="Alfredo Dinner
+classic pasta with house seasoning servered with steamed broccoli, garlic bread and drink.
+meat: Chicken($10)
+           Shrimp($11)
+          Chicken&Shrimp($12)">
+</div>
+
+<div class="textOverImage"
+style="background-image:url(chickenwing.jpeg)"
+data-text="Chicken Wing Dinner
+(5)house marinated and battered wings topped with your choice of flavor and drink. ($10)
+
+Wing flavors: Honey BBQ, Buffalo, Lemon Pepper
+($2 extra for loaded fries)">
+</div>
+
+<div class="textOverImage"
+style="background-image:url(jerk.JPG)"
+data-text="Jerk Chicken Dinner
+leg-quater chicken marinated with house & mild jerk seasoning with cornbread muffin & 2 sides and drink ($12)
+sides: Baked mac & cheese
+          Cabbage
+          Sweet potatoes">
+</div>
+
+<div class="textOverImage"
+style="background-image:url(salmon.jpeg)"
+data-text="Stuffed Salmon Dinner
+salmon stuffed with spinach, garlic bread, drink, & 2 sides ($15)
+sides: Wild rice
+          Broccoli">
+</div>
+
+
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h4>Contact Us</h4>
+  <p><b>Social Media</b><br>
+    Instagram: @twanoshomeofeverything<br>
+    Phone: XXX-XXX-XXXX
+  </p>
+  </div>
+</div>
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</html>
